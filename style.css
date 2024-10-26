@@ -1,0 +1,60 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Choose a modern, minimalistic font */
+}
+
+body {
+    background-color: #f2f2f2; /* Light gray background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.bio {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bio h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.presentations {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+}
+
+.presentations h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.presentations ul {
+    list-style-type: none;
+}
+
+.presentations li {
+    margin-bottom: 10px;
+}
